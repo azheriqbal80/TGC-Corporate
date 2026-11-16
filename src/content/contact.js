@@ -1,0 +1,66 @@
+export const enquiryOptions = [
+  "Platform enquiry",
+  "Technology integration",
+  "Cloud infrastructure partnership",
+  "Game publishing or studio partnership",
+  "Commercial partnership",
+  "Media or press",
+  "General corporate enquiry",
+  "Something else",
+];
+
+export const officeLocation = {
+  organisation: "The Game Company",
+  addressLine1: "19, The Office 2, DWTC",
+  addressLine2: "Dubai, United Arab Emirates",
+  shortAddress: "19, The Office 2, DWTC, Dubai, UAE",
+  coordinates: "25.2226° N, 55.2869° E",
+  district: "Trade Centre 2 · Sheikh Zayed Rd",
+  metro: "World Trade Centre Metro · Red Line",
+};
+
+export const globalOfficeLocations = [
+  {
+    id: "dubai-hq",
+    code: "01",
+    badge: "HQ",
+    title: "Dubai Headquarters",
+    role: "Corporate Headquarters",
+    city: "Dubai, UAE",
+    addressLine1: "19, The Office 2, DWTC",
+    addressLine2: "Dubai, United Arab Emirates",
+    shortAddress: "19, The Office 2, DWTC, Dubai, UAE",
+    coordinates: "25.2226° N, 55.2869° E",
+    summary: "The Game Company corporate base inside Dubai World Trade Centre.",
+    mapPoint: { x: 256, y: 186 },
+  },
+  {
+    id: "doha-showcase",
+    code: "02",
+    badge: "MENA",
+    title: "Doha Live Showcase",
+    role: "Web Summit Qatar",
+    city: "Doha, Qatar",
+    addressLine1: "Doha Exhibition & Convention Center",
+    addressLine2: "Doha, Qatar",
+    shortAddress: "Doha Exhibition and Convention Center, Doha, Qatar",
+    coordinates: "25.3209° N, 51.5293° E",
+    summary:
+      "Regional showcase site where TGC advanced from Alpha to growth stage.",
+    mapPoint: { x: 162, y: 174 },
+  },
+  {
+    id: "kuala-lumpur-demo",
+    code: "03",
+    badge: "APAC",
+    title: "Kuala Lumpur Cloud Demo",
+    role: "Tencent Cloud Showcase",
+    city: "Kuala Lumpur, Malaysia",
+    addressLine1: "Kuala Lumpur City Centre",
+    addressLine2: "Kuala Lumpur, Malaysia",
+    shortAddress: "Kuala Lumpur City Centre, Kuala Lumpur, Malaysia",
+    coordinates: "3.1579° N, 101.7116° E",
+    summary: "APAC live AAA gameplay demonstration over shared public Wi-Fi.",
+    mapPoint: { x: 642, y: 258 },
+  },
+];

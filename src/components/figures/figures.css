@@ -1,0 +1,391 @@
+.delivery-stack {
+  position: relative;
+  min-height: 650px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--ink);
+  color: var(--line);
+}
+
+.delivery-stack-svg {
+  width: 100%;
+  height: 100%;
+  min-height: 650px;
+  display: block;
+  overflow: visible;
+}
+
+.delivery-grid {
+  opacity: 0.42;
+}
+
+.delivery-path {
+  fill: none;
+  stroke: var(--green);
+  stroke-width: 1.4;
+  vector-effect: non-scaling-stroke;
+}
+
+.delivery-endpoint path,
+.delivery-endpoint rect {
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-opacity: 0.72;
+  stroke-width: 1.2;
+  vector-effect: non-scaling-stroke;
+}
+
+.delivery-endpoint circle {
+  fill: var(--green);
+  stroke: none;
+}
+
+.delivery-endpoint text,
+.delivery-caption text,
+.delivery-layer text {
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  fill: var(--paper);
+  fill-opacity: 0.78;
+}
+
+.delivery-endpoint--input path:nth-of-type(1) {
+  fill: #192016;
+}
+
+.delivery-endpoint--input path:nth-of-type(2) {
+  fill: #0c100c;
+}
+
+.delivery-endpoint--input path:nth-of-type(3) {
+  fill: #121810;
+}
+
+.delivery-endpoint--device path {
+  stroke: var(--ink);
+  stroke-width: 1.6;
+}
+
+.delivery-endpoint--device path:nth-of-type(1) {
+  fill: #f4f5ef;
+}
+
+.delivery-endpoint--device path:nth-of-type(2) {
+  fill: #d9ddd4;
+}
+
+.delivery-endpoint--device path:nth-of-type(3) {
+  fill: #c5ccc0;
+}
+
+.delivery-endpoint--device circle {
+  fill: var(--ink);
+}
+
+.delivery-endpoint--device text {
+  fill: var(--ink);
+  fill-opacity: 1;
+}
+
+.delivery-layer path {
+  stroke: rgba(238, 240, 233, 0.55);
+  stroke-width: 1.2;
+  vector-effect: non-scaling-stroke;
+}
+
+.delivery-layer-top {
+  fill: var(--box-top, #171d14);
+}
+
+.delivery-layer-left {
+  fill: var(--box-left, #0c100c);
+}
+
+.delivery-layer-right {
+  fill: var(--box-right, #11170f);
+}
+
+.delivery-layer--session {
+  --box-top: #171d14;
+  --box-left: #0b0f0b;
+  --box-right: #11170f;
+}
+
+.delivery-layer--engine {
+  --box-top: #1a2117;
+  --box-left: #0d120d;
+  --box-right: #141a12;
+}
+
+.delivery-layer--render {
+  --box-top: #1e271a;
+  --box-left: #101610;
+  --box-right: #172015;
+}
+
+.delivery-layer--optimise {
+  --box-top: #a6f432;
+  --box-left: #72ad22;
+  --box-right: #8bd328;
+}
+
+.delivery-layer--optimise .delivery-layer-top,
+.delivery-layer--optimise .delivery-layer-left,
+.delivery-layer--optimise .delivery-layer-right {
+  stroke: #a6f432;
+}
+
+.delivery-layer--optimise text {
+  fill: var(--ink);
+  fill-opacity: 1;
+  font-size: 8.5px;
+  font-weight: 600;
+}
+
+.delivery-layer-label {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+
+.delivery-endpoint-label {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+}
+
+.delivery-packet circle:first-child {
+  fill: var(--green);
+}
+
+.delivery-packet circle:last-child {
+  fill: none;
+  stroke: rgba(166, 244, 50, 0.4);
+  stroke-width: 1.2;
+}
+
+.delivery-caption text {
+  font-size: 8px;
+  fill: var(--paper);
+  fill-opacity: 0.55;
+}
+
+.delivery-stack figcaption {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 18px;
+  padding-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid var(--line);
+  color: var(--paper);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+}
+
+.delivery-stack figcaption span {
+  opacity: 0.55;
+}
+
+.delivery-stack figcaption strong {
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.capability-figure {
+  justify-self: end;
+  width: min(100%, 420px);
+  height: auto;
+  aspect-ratio: 16/11;
+  margin: 0;
+}
+
+.capability-figure svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+.capability-block path {
+  stroke: rgba(238, 240, 233, 0.78);
+  stroke-width: 1.1;
+  vector-effect: non-scaling-stroke;
+}
+
+.capability-block--ink .capability-block-top {
+  fill: #1e271a;
+}
+
+.capability-block--ink .capability-block-left {
+  fill: #0b0f0b;
+}
+
+.capability-block--ink .capability-block-right {
+  fill: #172015;
+}
+
+.capability-block--muted .capability-block-top {
+  fill: #4a5146;
+}
+
+.capability-block--muted .capability-block-left {
+  fill: #242a22;
+}
+
+.capability-block--muted .capability-block-right {
+  fill: #343b31;
+}
+
+.capability-block--paper .capability-block-top {
+  fill: #f4f5ef;
+}
+
+.capability-block--paper .capability-block-left {
+  fill: #d9ddd4;
+}
+
+.capability-block--paper .capability-block-right {
+  fill: #c5ccc0;
+}
+
+.capability-block--paper path {
+  stroke: #0a0b09;
+}
+
+.capability-block--signal .capability-block-top {
+  fill: #a6f432;
+}
+
+.capability-block--signal .capability-block-left {
+  fill: #72ad22;
+}
+
+.capability-block--signal .capability-block-right {
+  fill: #8bd328;
+}
+
+.capability-block--signal path {
+  stroke: #0a0b09;
+}
+
+.capability-cylinder rect,
+.capability-cylinder ellipse {
+  stroke: #0a0b09;
+  stroke-width: 1.1;
+  vector-effect: non-scaling-stroke;
+}
+
+.capability-cylinder--paper rect,
+.capability-cylinder--paper .capability-cylinder-bottom {
+  fill: #d9ddd4;
+}
+
+.capability-cylinder--paper .capability-cylinder-top {
+  fill: #f4f5ef;
+}
+
+.capability-cylinder--signal rect,
+.capability-cylinder--signal .capability-cylinder-bottom {
+  fill: #72ad22;
+}
+
+.capability-cylinder--signal .capability-cylinder-top {
+  fill: #a6f432;
+}
+
+.capability-cylinder--ink rect,
+.capability-cylinder--ink .capability-cylinder-bottom {
+  fill: #0b0f0b;
+}
+
+.capability-cylinder--ink .capability-cylinder-top {
+  fill: #1e271a;
+}
+
+.capability-cylinder--muted rect,
+.capability-cylinder--muted .capability-cylinder-bottom {
+  fill: #343b31;
+}
+
+.capability-cylinder--muted .capability-cylinder-top {
+  fill: #4a5146;
+}
+
+.capability-channel-spine {
+  fill: none;
+  stroke-width: 1.15;
+  vector-effect: non-scaling-stroke;
+}
+
+.capability-channel-spine--signal {
+  stroke: #0a0b09;
+  stroke-dasharray: 2 5;
+}
+
+.capability-channel-spine--paper {
+  stroke: #f4f5ef;
+  stroke-dasharray: 2 5;
+}
+
+@media (max-width: 900px) {
+  .delivery-stack,
+  .delivery-stack-svg {
+    min-height: 560px;
+  }
+  .tech-list h3,
+  .tech-list p,
+  .capability-figure {
+    grid-column: 2;
+  }
+  .capability-figure {
+    justify-self: start;
+    width: min(100%, 360px);
+    height: auto;
+    aspect-ratio: 16/11;
+  }
+}
+
+.leadership-model-figure {
+  width: min(100%, 560px);
+  height: auto;
+  aspect-ratio: 16/11;
+  margin: 0;
+}
+
+.leadership-model-figure svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+@media (max-width: 900px) {
+  .leadership-model-figure {
+    width: min(100%, 520px);
+  }
+}
+
+@media (max-width: 520px) {
+  .delivery-stack,
+  .delivery-stack-svg {
+    min-height: 430px;
+  }
+  .delivery-stack figcaption {
+    left: 14px;
+    right: 14px;
+    bottom: 12px;
+  }
+  .delivery-stack figcaption strong {
+    display: none;
+  }
+  .capability-figure {
+    width: 100%;
+    max-width: 330px;
+  }
+}

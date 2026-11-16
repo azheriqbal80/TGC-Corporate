@@ -1,0 +1,256 @@
+.site-shell {
+  overflow: clip;
+}
+
+.line-mask {
+  --hero-descender-space: clamp(8px, 1vw, 16px);
+  display: block;
+  overflow: hidden;
+  padding-bottom: var(--hero-descender-space);
+  margin-bottom: calc(var(--hero-descender-space) * -1);
+}
+
+.line-mask > [data-hero-line],
+.line-mask > [data-platform-line],
+.line-mask > [data-tech-line],
+.line-mask > [data-company-line],
+.line-mask > [data-leadership-line] {
+  display: block;
+}
+
+.text-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #d7ddcf;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.principles {
+  border-top: 1px solid rgba(0, 0, 0, 0.28);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.principles div {
+  min-height: 135px;
+  padding: 18px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.principles div:not(:first-child) {
+  padding-left: 20px;
+}
+
+.principles div:last-child {
+  border: 0;
+}
+
+.principles span {
+  font-size: 10px;
+}
+
+.principles strong {
+  max-width: 14ch;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contact-action {
+  position: relative;
+  z-index: 1;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Top rule only. A bottom rule here sits a few pixels above the footer's own
+     top rule and reads as a doubled line closing the page. */
+  border-top: 1px solid var(--green);
+  color: var(--green);
+  font-family: "Archivo";
+  font-size: clamp(22px, 2.4vw, 38px);
+  transition: transform 0.25s ease;
+}
+
+.contact-action:hover {
+  transform: translateX(8px);
+}
+
+/* Platform page */
+.nav a.active {
+  color: var(--green);
+}
+
+.journey-node.active {
+  color: var(--green);
+}
+
+.journey-node.active i {
+  background: var(--green);
+  transform: translateX(-50%) scale(1);
+}
+@media (max-width: 900px) {
+  .principles {
+    grid-template-columns: 1fr;
+  }
+  .principles div,
+  .principles div:not(:first-child) {
+    min-height: 95px;
+    padding: 16px 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+.nav-manifesto {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.nav a .arrow {
+  width: 17px;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #a4ec22;
+}
+
+@media (max-width: 620px) {
+  .nav-manifesto {
+    font-size: 9px;
+    letter-spacing: 0.04em;
+  }
+  .hero {
+    padding-top: 100px;
+  }
+}
+
+.header-contact .arrow {
+  width: 15px;
+}
+
+@media (max-width: 620px) {
+  .hero {
+    padding-top: 100px;
+  }
+}
+
+.nav-group.active .nav-group-row > a,
+.nav-group-row > a:hover,
+.nav-group-row > button:hover {
+  color: #a4ec22;
+}
+
+.nav-submenu .arrow {
+  width: 13px;
+  opacity: 0.65;
+}
+
+/* Section-specific editorial imagery */
+.section-image {
+  margin: 0;
+  overflow: hidden;
+  background: #111411;
+}
+
+.section-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.section-image picture {
+  display: contents;
+}
+
+.section-image figcaption {
+  position: absolute;
+  z-index: 3;
+  left: 18px;
+  right: 18px;
+  bottom: 14px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  color: #f7f7f2;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.hero-section-image:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 14, 11, 0.9) 0%,
+    rgba(11, 14, 11, 0.15) 40%,
+    rgba(11, 14, 11, 0.05) 100%
+  );
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .section-image figcaption {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 520px) {
+  .section-image img {
+    object-position: 62% center;
+  }
+}
+
+.shader-background {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.shader-background[data-webgl-unavailable] {
+  background: radial-gradient(
+    circle at 74% 43%,
+    rgba(164, 236, 34, 0.76),
+    rgba(27, 75, 26, 0.82) 24%,
+    #070907 66%
+  );
+  background-size: 125% 125%;
+  animation: shader-fallback-drift 9s ease-in-out infinite alternate;
+}
+
+@media (max-width: 520px) {
+  .contact-action {
+    height: 70px;
+  }
+}
+
+/* Design guide — rendered from the canonical docs/DESIGN.md source */
+.design-guide-page {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.dg-loading {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.dg-component-preview .contact-action {
+  margin-top: 72px;
+}

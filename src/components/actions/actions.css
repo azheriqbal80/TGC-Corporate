@@ -1,0 +1,80 @@
+.arrow {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  transition: transform 0.25s ease;
+}
+
+a:hover .arrow {
+  transform: translateX(4px);
+}
+
+a:hover .arrow--diagonal {
+  transform: translate(3px, -3px);
+}
+
+.action {
+  width: 188px;
+  min-height: 56px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--green);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition:
+    background 0.25s,
+    color 0.25s;
+}
+
+.action:hover {
+  background: #fff;
+}
+
+.action--light {
+  background: var(--paper);
+}
+
+.contact-submit .arrow {
+  width: 24px;
+}
+
+.contact-submit:hover .arrow {
+  transform: translate(3px, -3px);
+}
+
+@media (max-width: 520px) {
+  .action {
+    width: 160px;
+    min-height: 50px;
+  }
+}
+
+.dg-component-preview .action,
+.dg-light-action {
+  width: 188px;
+  min-height: 56px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.dg-component-preview .action:hover,
+.dg-light-action:hover {
+  background: #fff;
+}

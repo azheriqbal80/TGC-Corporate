@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T15:01:00+05:00",
+  "title": "Design System: The Game Company",
+  "extensions": {
+    "colorMeta": {
+      "signal-green": {
+        "role": "primary",
+        "displayName": "Signal Green",
+        "canonical": "#a6f432",
+        "tonalRamp": [
+          "oklch(15% 0.06 130)",
+          "oklch(25% 0.10 130)",
+          "oklch(35% 0.15 130)",
+          "oklch(50% 0.21 130)",
+          "oklch(65% 0.24 130)",
+          "oklch(75% 0.20 130)",
+          "oklch(85% 0.12 130)",
+          "oklch(95% 0.04 130)"
+        ]
+      },
+      "operational-ink": {
+        "role": "neutral",
+        "displayName": "Operational Ink",
+        "canonical": "#0a0b09",
+        "tonalRamp": [
+          "oklch(15% 0.01 125)",
+          "oklch(25% 0.01 125)",
+          "oklch(35% 0.01 125)",
+          "oklch(50% 0.01 125)",
+          "oklch(65% 0.01 125)",
+          "oklch(75% 0.01 125)",
+          "oklch(85% 0.01 125)",
+          "oklch(95% 0.01 125)"
+        ]
+      },
+      "editorial-paper": {
+        "role": "neutral",
+        "displayName": "Editorial Paper",
+        "canonical": "#eef0e9",
+        "tonalRamp": [
+          "oklch(15% 0.01 125)",
+          "oklch(25% 0.01 125)",
+          "oklch(35% 0.01 125)",
+          "oklch(50% 0.01 125)",
+          "oklch(65% 0.01 125)",
+          "oklch(75% 0.01 125)",
+          "oklch(85% 0.01 125)",
+          "oklch(95% 0.01 125)"
+        ]
+      },
+      "pure-white": {
+        "role": "neutral",
+        "displayName": "Pure White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(65% 0 0)",
+          "oklch(75% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "line-on-dark": {
+        "role": "neutral",
+        "displayName": "Line on Dark",
+        "canonical": "rgba(255,255,255,.17)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(65% 0 0)",
+          "oklch(75% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "muted-on-dark": {
+        "role": "neutral",
+        "displayName": "Muted Copy on Dark",
+        "canonical": "#aeb6a6",
+        "tonalRamp": [
+          "oklch(15% 0.01 125)",
+          "oklch(25% 0.01 125)",
+          "oklch(35% 0.01 125)",
+          "oklch(50% 0.01 125)",
+          "oklch(65% 0.01 125)",
+          "oklch(75% 0.01 125)",
+          "oklch(85% 0.01 125)",
+          "oklch(95% 0.01 125)"
+        ]
+      },
+      "link-on-dark": {
+        "role": "neutral",
+        "displayName": "Route Link on Dark",
+        "canonical": "#d7ddcf",
+        "tonalRamp": [
+          "oklch(15% 0.01 125)",
+          "oklch(25% 0.01 125)",
+          "oklch(35% 0.01 125)",
+          "oklch(50% 0.01 125)",
+          "oklch(65% 0.01 125)",
+          "oklch(75% 0.01 125)",
+          "oklch(85% 0.01 125)",
+          "oklch(95% 0.01 125)"
+        ]
+      },
+      "field-error": {
+        "role": "status",
+        "displayName": "Field Error",
+        "canonical": "#a52c24",
+        "tonalRamp": [
+          "oklch(15% 0.05 25)",
+          "oklch(25% 0.09 25)",
+          "oklch(35% 0.13 25)",
+          "oklch(50% 0.17 25)",
+          "oklch(65% 0.14 25)",
+          "oklch(75% 0.10 25)",
+          "oklch(85% 0.06 25)",
+          "oklch(95% 0.02 25)"
+        ]
+      },
+      "feedback-success": {
+        "role": "status",
+        "displayName": "Feedback Success Field",
+        "canonical": "#dcebc4"
+      },
+      "feedback-error": {
+        "role": "status",
+        "displayName": "Feedback Error Field",
+        "canonical": "#f1d6d2"
+      },
+      "diagram-ink-top": {
+        "role": "neutral",
+        "displayName": "Diagram Ink Top Face",
+        "canonical": "#1e271a"
+      },
+      "diagram-ink-left": {
+        "role": "neutral",
+        "displayName": "Diagram Ink Left Face",
+        "canonical": "#0b0f0b"
+      },
+      "diagram-ink-right": {
+        "role": "neutral",
+        "displayName": "Diagram Ink Right Face",
+        "canonical": "#172015"
+      },
+      "diagram-paper-top": {
+        "role": "neutral",
+        "displayName": "Diagram Paper Top Face",
+        "canonical": "#f4f5ef"
+      },
+      "diagram-paper-left": {
+        "role": "neutral",
+        "displayName": "Diagram Paper Left Face",
+        "canonical": "#d9ddd4"
+      },
+      "diagram-paper-right": {
+        "role": "neutral",
+        "displayName": "Diagram Paper Right Face",
+        "canonical": "#c5ccc0"
+      },
+      "diagram-green-left": {
+        "role": "primary",
+        "displayName": "Diagram Green Left Face",
+        "canonical": "#72ad22"
+      },
+      "diagram-green-right": {
+        "role": "primary",
+        "displayName": "Diagram Green Right Face",
+        "canonical": "#8bd328"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Overscale hero propositions; one emphasized line may carry Signal Green."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Major section statements across dark, paper, and green fields."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Technology rows and strong local headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Readable explanatory copy held to controlled line lengths."
+      },
+      "label": {
+        "displayName": "Action Label",
+        "purpose": "Uppercase action labels with operational tracking."
+      }
+    },
+    "shadows": [
+      {
+        "name": "signal-glow",
+        "value": "0 0 12px rgba(166,244,50,.55)",
+        "purpose": "The functional glow around a six-pixel live-status node; no other component uses shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": "180–280ms ease or cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Reciprocal color, border, icon, hover, selection, and compact control changes."
+      },
+      {
+        "name": "large-state-transition",
+        "value": "360–580ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Menus, overlays, accordions, and meaningful layout transitions in both directions."
+      },
+      {
+        "name": "hero-line-reveal",
+        "value": "1.15s expo.out; 0.1s stagger; yPercent 110; rotate 1.5deg",
+        "purpose": "Introduces the two-line hero proposition from its clipped line masks without clipping descenders."
+      },
+      {
+        "name": "hero-support-reveal",
+        "value": "0.9s power3.out; 0.1s stagger; 0.25s delay; y 24px",
+        "purpose": "Introduces hero copy, actions, and the visual field after the headline begins."
+      },
+      {
+        "name": "section-reveal",
+        "value": "ScrollTrigger; 0.9s expo.out; y 24px max; opacity 0.15 to 1; 0.08–0.12s sibling stagger; trigger top 86%; once",
+        "purpose": "Reveals each section and its meaningful nested groups in reading order without fragmenting every text node."
+      },
+      {
+        "name": "reversible-state-change",
+        "value": "subtle transition in both directions; state and focus update immediately",
+        "purpose": "Gives every visual state change an intentional return path without delaying interaction."
+      },
+      {
+        "name": "smooth-scroll",
+        "value": "1.05s Lenis duration",
+        "purpose": "Provides restrained smooth-wheel movement outside reduced-motion mode."
+      },
+      {
+        "name": "hero-metal-shader",
+        "value": "continuous low-speed WebGL drift; speed 0.24; non-interactive; viewport and visibility paused",
+        "purpose": "Creates a cinematic infrastructure field behind the homepage proposition without decorative particles or camera zoom."
+      },
+      {
+        "name": "capability-loop",
+        "value": "2–3s concept-specific cycle; 3–6px translation; sine.inOut; viewport and visibility paused",
+        "purpose": "Explains preparation, resource selection, and separate data-channel rhythms without decorative motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transitions disabled; Lenis disabled; figure loops stopped; WebGL resolves to a static composition",
+        "purpose": "Preserves immediate content access and the complete visual relationship when motion is reduced."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack-and-menu",
+        "value": "900px"
+      },
+      {
+        "name": "compact-header",
+        "value": "620px"
+      },
+      {
+        "name": "compact-mobile",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The canonical contact or platform action on dark and light fields.",
+      "html": "<a class=\"ds-action-primary\" href=\"#\"><span>CONTACT TGC</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h13M13 7l5 5-5 5\" /></svg></a>",
+      "css": ".ds-action-primary { width:188px; min-height:56px; padding:0 18px; display:flex; align-items:center; justify-content:space-between; background:var(--green, #a6f432); color:var(--ink, #0a0b09); font:600 12px/1 Manrope, sans-serif; text-transform:uppercase; letter-spacing:.08em; text-decoration:none; transition:background .25s ease, color .25s ease; } .ds-action-primary svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.5; transition:transform .25s ease; } .ds-action-primary:hover { background:#fff; } .ds-action-primary:hover svg { transform:translateX(4px); } .ds-action-primary:focus-visible { outline:2px solid var(--green, #a6f432); outline-offset:5px; }"
+    },
+    {
+      "name": "Light Action",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "The primary rectangular action when a quieter light control is needed on a dark network field.",
+      "html": "<a class=\"ds-action-light\" href=\"#\"><span>EXPLORE THE PLATFORM</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h13M13 7l5 5-5 5\" /></svg></a>",
+      "css": ".ds-action-light { width:188px; min-height:56px; padding:0 18px; display:flex; align-items:center; justify-content:space-between; background:var(--paper, #eef0e9); color:var(--ink, #0a0b09); font:600 12px/1 Manrope, sans-serif; text-transform:uppercase; letter-spacing:.08em; text-decoration:none; transition:background .25s ease, color .25s ease; } .ds-action-light svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.5; transition:transform .25s ease; } .ds-action-light:hover { background:#fff; } .ds-action-light:hover svg { transform:translateX(4px); } .ds-action-light:focus-visible { outline:2px solid var(--green, #a6f432); outline-offset:5px; }"
+    },
+    {
+      "name": "Text Route Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "A lower-emphasis route to deeper platform or company content.",
+      "html": "<a class=\"ds-text-link\" href=\"#\"><span>EXPLORE THE PLATFORM</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h13M13 7l5 5-5 5\" /></svg></a>",
+      "css": ".ds-text-link { display:inline-flex; align-items:center; gap:10px; color:#d7ddcf; font:400 12px/1 Manrope, sans-serif; text-transform:uppercase; letter-spacing:.08em; text-decoration:none; } .ds-text-link svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.5; transition:transform .25s ease; } .ds-text-link:hover svg { transform:translateX(4px); } .ds-text-link:focus-visible { outline:2px solid var(--green, #a6f432); outline-offset:5px; }"
+    },
+    {
+      "name": "Editorial Input Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "The canonical persistent-label field used on the light contact form surface.",
+      "html": "<label class=\"ds-field\"><span>WORK EMAIL <b aria-hidden=\"true\">*</b></span><input type=\"email\" value=\"name@company.com\" aria-invalid=\"false\"></label>",
+      "css": ".ds-field { display:grid; gap:8px; color:#0a0b09; font-family:Manrope,sans-serif; } .ds-field > span { font-size:11px; letter-spacing:.09em; text-transform:uppercase; } .ds-field b { color:#a52c24; } .ds-field input { width:100%; padding:12px 0; border:0; border-bottom:1px solid #70756c; border-radius:0; background:transparent; color:#0a0b09; font:400 16px/1.65 Manrope,sans-serif; outline:0; transition:border-color .22s ease, box-shadow .22s ease; } .ds-field input:focus { border-color:#0a0b09; box-shadow:0 2px 0 #a6f432; } .ds-field input[aria-invalid=\"true\"] { border-color:#a52c24; } .ds-field input:disabled { cursor:not-allowed; opacity:.58; }"
+    },
+    {
+      "name": "Form Feedback",
+      "kind": "custom",
+      "description": "A concise form status surface that never implies successful transmission without a configured endpoint.",
+      "html": "<div class=\"ds-form-feedback\" role=\"status\"><strong>Submission routing is being configured.</strong><span>Your details have not been sent.</span></div>",
+      "css": ".ds-form-feedback { padding:18px 20px; display:flex; flex-direction:column; gap:5px; background:#dcebc4; color:#0a0b09; font-family:Manrope,sans-serif; } .ds-form-feedback strong { font-size:13px; } .ds-form-feedback span { font-size:12px; line-height:1.45; } .ds-form-feedback:focus-visible { outline:2px solid #0a0b09; outline-offset:3px; }"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Shared three-part header with a restrained dark glass field, centered trigger, white mark and expandable dark route panel.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\">TGC</a><button class=\"ds-menu\" type=\"button\">Menu</button><a class=\"ds-contact\" href=\"#\">CONTACT ↗</a><nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#\">Home</a><a href=\"#\">Platform</a><a href=\"#\">Technology</a><a href=\"#\">Company</a><a href=\"#\">Leadership</a></nav></header>",
+      "css": ".ds-header { height:88px; padding:0 28px; display:grid; grid-template-columns:1fr auto 1fr; align-items:center; color:#f7f7f2; background:rgba(10,11,9,.68); backdrop-filter:blur(12px); font:500 12px/1 Manrope,sans-serif; } .ds-brand { color:inherit; font:600 18px/1 Archivo,sans-serif; text-decoration:none; } .ds-menu { color:inherit; background:transparent; border:0; cursor:pointer; font:500 14px/1 Manrope,sans-serif; } .ds-contact { justify-self:end; color:inherit; text-decoration:none; letter-spacing:.08em; } .ds-nav { grid-column:2; width:420px; margin-top:18px; padding:0 20px; display:flex; flex-direction:column; background:#0d0f0e; border:1px solid rgba(255,255,255,.12); } .ds-nav a { min-height:58px; display:flex; align-items:center; color:#f7f7f2; border-bottom:1px solid rgba(255,255,255,.17); font:400 26px/1 Archivo,sans-serif; text-decoration:none; transition:color .2s ease; } .ds-nav a:hover { color:#a6f432; } .ds-menu:focus-visible,.ds-nav a:focus-visible,.ds-contact:focus-visible { outline:2px solid #a6f432; outline-offset:4px; }"
+    },
+    {
+      "name": "Route Status",
+      "kind": "chip",
+      "refersTo": "route-status",
+      "description": "A live operational state placed inside a dispatch diagram.",
+      "html": "<div class=\"ds-route-status\"><i aria-hidden=\"true\"></i><span>ADAPTIVE ROUTE ACTIVE</span></div>",
+      "css": ".ds-route-status { display:inline-flex; gap:8px; align-items:center; color:var(--green, #a6f432); font:400 10px/1 Manrope, sans-serif; text-transform:uppercase; letter-spacing:.1em; } .ds-route-status i { width:6px; height:6px; flex:0 0 6px; border-radius:50%; background:var(--green, #a6f432); box-shadow:0 0 12px rgba(166,244,50,.55); }"
+    },
+    {
+      "name": "Signal Source Node",
+      "kind": "card",
+      "refersTo": "signal-node-source",
+      "description": "The square source card that anchors an infrastructure route diagram.",
+      "html": "<div class=\"ds-signal-node\"><small>EXECUTE</small><strong>Game<br>engine</strong><span>REMOTE WORKLOAD</span></div>",
+      "css": ".ds-signal-node { width:155px; height:155px; padding:16px; display:flex; flex-direction:column; justify-content:space-between; background:var(--green, #a6f432); color:var(--ink, #0a0b09); } .ds-signal-node small { font:400 9px/1 Manrope, sans-serif; letter-spacing:.12em; } .ds-signal-node strong { font:500 25px/.95 Archivo, sans-serif; } .ds-signal-node span { font:400 9px/1 Manrope, sans-serif; text-transform:uppercase; letter-spacing:.1em; }"
+    },
+    {
+      "name": "Contact Rail",
+      "kind": "button",
+      "refersTo": "contact-action",
+      "description": "The full-width closing action, framed by a single signal-green top rule.",
+      "html": "<a class=\"ds-contact-rail\" href=\"#\"><span>Contact TGC</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h13M13 7l5 5-5 5\" /></svg></a>",
+      "css": ".ds-contact-rail { height:82px; display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--green, #a6f432); color:var(--green, #a6f432); font:400 clamp(22px, 2.4vw, 38px)/1 Archivo, sans-serif; text-decoration:none; transition:transform .25s ease; } .ds-contact-rail svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.5; transform:rotate(-45deg); transition:transform .25s ease; } .ds-contact-rail:hover { transform:translateX(8px); } .ds-contact-rail:hover svg { transform:rotate(-45deg) translateX(4px); } .ds-contact-rail:focus-visible { outline:2px solid var(--green, #a6f432); outline-offset:5px; }"
+    },
+    {
+      "name": "Site Footer",
+      "kind": "custom",
+      "refersTo": "site-footer",
+      "description": "The one editorial closure every route renders at page level, after main. Only tone and the text slots may differ.",
+      "html": "<footer class=\"ds-site-footer ds-site-footer--dark\"><span>&copy; 2026 The Game Company</span><span>Dubai &middot; UAE</span><div><a href=\"#top\">Back to top</a></div></footer>",
+      "css": ".ds-site-footer { position:relative; min-height:90px; padding:30px 3vw; display:flex; align-items:center; justify-content:space-between; gap:18px; font:600 12px/1.4 Manrope, sans-serif; letter-spacing:.07em; text-transform:uppercase; } .ds-site-footer > div { display:flex; gap:28px; } .ds-site-footer a { transition:opacity .22s ease; } .ds-site-footer a:hover { opacity:.58; } .ds-site-footer--dark { background:var(--ink, #0a0b09); color:#aeb6a6; border-top:1px solid rgba(255,255,255,.17); } .ds-site-footer--signal { background:var(--green, #a6f432); color:var(--ink, #0a0b09); border-top:1px solid rgba(10,11,9,.4); }"
+    },
+    {
+      "name": "Closing Section",
+      "kind": "custom",
+      "refersTo": "closing-section",
+      "description": "The full-height closing call to action every route ends with, directly above the footer. Only tone and the text slots may differ.",
+      "html": "<section class=\"ds-closing ds-closing--dark\"><div class=\"ds-closing-meta\"><span>Start a conversation</span><span>Dubai, UAE</span></div><h2>Let&rsquo;s talk about what gaming can reach next.</h2><p>Contact TGC about the platform, technology partnerships, publishing opportunities, media requests, or other corporate enquiries.</p><a class=\"ds-contact-rail\" href=\"#\"><span>Contact TGC</span></a></section>",
+      "css": ".ds-closing { position:relative; min-height:100svh; padding:40px 3vw 28px; display:flex; flex-direction:column; overflow:hidden; } .ds-closing-meta { display:flex; justify-content:space-between; padding-bottom:20px; font-size:10px; text-transform:uppercase; letter-spacing:.12em; } .ds-closing h2 { margin:auto 0 36px; max-width:1100px; font:400 clamp(3.8rem, 8vw, 7.2rem)/.91 Archivo, sans-serif; letter-spacing:-.04em; } .ds-closing > p { margin:0 0 40px; max-width:54ch; line-height:1.65; } .ds-closing--dark { background:var(--ink, #0a0b09); } .ds-closing--dark > p { color:#aeb6a6; } .ds-closing--signal { background:var(--green, #a6f432); color:var(--ink, #0a0b09); }"
+    },
+    {
+      "name": "Page Hero",
+      "kind": "custom",
+      "refersTo": "page-hero",
+      "description": "The one hero every interior route opens with. Only the text, the photograph and tone may differ. Home and Contact keep their own heroes.",
+      "html": "<section class=\"ds-page-hero ds-page-hero--dark\"><div class=\"ds-page-hero-title\"><h1>High-performance gaming <em>beyond the hardware barrier.</em></h1></div><p class=\"ds-page-hero-copy\">A single copy column at roughly a third of the measure.</p><div class=\"ds-page-hero-actions\"><a class=\"action\" href=\"#\">Contact TGC</a><a class=\"text-link\" href=\"#\">Explore the technology</a></div><figure class=\"ds-page-hero-media\"></figure><div class=\"ds-page-hero-foot\"><span>Player</span><span>Network</span><span>Cloud</span></div></section>",
+      "css": ".ds-page-hero { position:relative; min-height:100svh; padding:clamp(116px,12.5vh,146px) 3vw 34px; overflow:hidden; } .ds-page-hero--dark { background:var(--ink,#0a0b09); color:var(--paper,#eef0e9); } .ds-page-hero h1 { margin:0; max-width:1220px; font:400 clamp(3.5rem,7vw,6rem)/.91 Archivo, sans-serif; letter-spacing:-.04em; } .ds-page-hero h1 em { color:var(--green,#a6f432); font-style:normal; } .ds-page-hero-copy { width:35%; max-width:54ch; margin:46px 0 0; color:#c8cfc0; font-size:16px; line-height:1.65; } .ds-page-hero-actions { margin-top:28px; display:flex; align-items:center; gap:28px; } .ds-page-hero-media { position:absolute; z-index:2; right:3vw; bottom:72px; width:57%; height:52%; overflow:hidden; background:#111411; clip-path:polygon(8% 0,100% 0,100% 84%,92% 100%,0 100%,0 16%); } .ds-page-hero-foot { position:absolute; left:3vw; right:3vw; bottom:24px; display:grid; grid-template-columns:1fr 1fr 1fr; color:#6e756a; font-size:9px; text-transform:uppercase; letter-spacing:.14em; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Live Dispatch Network",
+    "overview": "The visual system treats cloud gaming as an operating network already in motion: a near-black control field, a single electric route signal, and cool paper surfaces that let corporate evidence read with editorial clarity. Its confidence comes from scale, alignment, and instrumentation rather than game-like spectacle.\n\nThe world is precise, spacious, and controlled. Overscale Archivo statements establish the proposition; compact Manrope labels behave like route annotations; rules, nodes, paths, indices, and cropped network frames make infrastructure visible without turning it into decorative sci-fi. Bright color is scarce and therefore meaningful.",
+    "keyCharacteristics": [
+      "Near-black operations fields alternate with cool editorial paper and signal-green evidence bands.",
+      "Overscale, tightly tracked headlines are balanced by small uppercase manifest labels.",
+      "Thin rules, coordinate lines, circular nodes, cinematic shader ribbons, and isometric system figures visualize infrastructure.",
+      "Isometric figures use a few large three-tone objects; visible labels and routes appear only when the relationship cannot be understood without them.",
+      "Motion is smooth and low-amplitude, with a complete reduced-motion fallback."
+    ],
+    "rules": [
+      {
+        "name": "The Single Visual Source Rule",
+        "body": "Define a reusable visual decision once in DESIGN.md; other documents and code should reference or implement it rather than restating a competing version.",
+        "section": "overview"
+      },
+      {
+        "name": "The One Live Signal Rule",
+        "body": "Signal Green is the only chromatic accent; its rarity identifies what is active, actionable, or operationally important.",
+        "section": "colors"
+      },
+      {
+        "name": "The Alternating Field Rule",
+        "body": "Move between Operational Ink, Editorial Paper, and full Signal Green sections to create rhythm; do not introduce extra surface colors.",
+        "section": "colors"
+      },
+      {
+        "name": "The Legible Pairing Rule",
+        "body": "Every text and essential-state color must use an approved surface pairing and pass the required contrast gate; color never carries state by itself.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Voice Rule",
+        "body": "Archivo speaks for propositions and structural titles; Manrope carries explanation, navigation, metadata, and actions.",
+        "section": "typography"
+      },
+      {
+        "name": "The Manifest Label Rule",
+        "body": "Small labels are uppercase, widely tracked, and concise; they annotate the system rather than compete with the message.",
+        "section": "typography"
+      },
+      {
+        "name": "The Instrument Grid Rule",
+        "body": "Every expressive element must still align to an edge, column, rule, node, or documented route; apparent freedom is held by a visible system.",
+        "section": "layout"
+      },
+      {
+        "name": "The Responsive Purpose Rule",
+        "body": "A breakpoint must resolve a real composition or usability change; components scale or reflow as complete systems instead of losing labels, paths, controls, or meaning.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Infrastructure Rule",
+        "body": "Surfaces stay flat and square; use rules, fields, overlap, and route geometry before reaching for elevation.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Three-Face Depth Rule",
+        "body": "Every isometric block uses one hue family across three flat values: the top face is lightest, the left face is darkest, and the right face sits between them. Create depth through tonal faces and precise edges, never gradients or decorative drop shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Node-or-Plane Rule",
+        "body": "Geometry is either a precise circular node or a sharp plane; avoid casual medium-radius cards and pill-shaped controls.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Operational Figure Rule",
+        "body": "A figure must communicate one real system idea through the fewest large, aligned shapes possible. Text and routes are optional evidence, not required decoration; the figure must never become a dense miniature schematic or generic futuristic ornament.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Evidence Before Atmosphere Rule",
+        "body": "Use imagery to clarify the company, technology, people, or operating context; atmosphere supports that evidence but never substitutes for it.",
+        "section": "shapes"
+      },
+      {
+        "name": "The One Icon Family Rule",
+        "body": "Use Lucide for interface symbols; do not introduce another icon package, emoji, Unicode arrows, or one-off inline SVG controls unless the required brand or technical symbol does not exist in Lucide and the exception is documented.",
+        "section": "components"
+      },
+      {
+        "name": "The Reversible Transition Rule",
+        "body": "If a visual element animates from state A to state B, its return from B to A must be equally intentional, subtle, and free of abrupt jumps.",
+        "section": "components"
+      },
+      {
+        "name": "The Complete State Rule",
+        "body": "A component is complete only when its pointer, keyboard, active, reverse, disabled, error, and reduced-motion behavior have been considered and the applicable states are implemented.",
+        "section": "components"
+      },
+      {
+        "name": "The Brand Mark Integrity Rule",
+        "body": "Choose the approved logo variant for contrast, preserve its geometry and clear space, and never treat the mark as a decorative background texture.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do reserve Signal Green for active routes, primary actions, focus, evidence fields, and a limited display emphasis.",
+      "Do use Archivo at decisive scale and Manrope for all explanatory and operational copy.",
+      "Do build hierarchy with spacing, thin rules, alignment, and alternating fields before adding decoration.",
+      "Do keep motion controlled: 250ms state transitions, 0.9–1.15s reveal sequences, and slow low-amplitude route movement.",
+      "Do provide reciprocal transitions for every reversible visual state and verify both directions, including menu close, accordion collapse, hover exit, inactive selection, and dismissed feedback.",
+      "Do preserve the implemented 900px, 620px, and 520px responsive transitions and the reduced-motion static fallback.",
+      "Do apply the Three-Face Depth Rule and Operational Figure Rule whenever creating or revising figures, shapes, system maps, or technical diagrams.",
+      "Do keep figures visually large and use the minimum number of vector parts needed to express one idea.",
+      "Do use SVG titles and descriptions when a figure is intentionally textless.",
+      "Do use only the approved logo assets and select the black or white variant according to surface contrast.",
+      "Do define every applicable component state and test pointer, keyboard, reverse, error, disabled, and reduced-motion behavior.",
+      "Do crop and optimize imagery for each responsive composition while preserving a quiet region for overlaid copy.",
+      "Do update DESIGN.md and .impeccable/design.json together whenever the reusable visual system changes.",
+      "Do keep page copy, implementation, and the matching content/pages brief synchronized in the same change."
+    ],
+    "donts": [
+      "Don't add neon gradients, glowing orbs, glass cards, or game-interface chrome; the network itself is the visual metaphor.",
+      "Don't introduce rounded card systems or pill buttons into the sharp-plane and circular-node language.",
+      "Don't use Signal Green as ambient decoration across an entire composition; it must retain operational meaning.",
+      "Don't add decorative shadows to sections, cards, or actions.",
+      "Don't let animation delay access to content or survive a reduced-motion preference.",
+      "Don't use transition: all, delay keyboard focus, or animate only the entrance while leaving the reverse state abrupt.",
+      "Don't shrink figures into dense mini-schematics or add labels and routes merely to make them look technical.",
+      "Don't use flat single-value boxes, floating labels, incomplete paths, gradients, or decorative particles in operational figures.",
+      "Don't repeat the homepage shader as a generic background on unrelated sections.",
+      "Don't use placeholders as field labels, remove visible focus, or communicate an error or selected state through color alone.",
+      "Don't stretch, recolor, crop, shadow, rotate, or use the TGC logo as an ambient footer or section background.",
+      "Don't add generic gaming, crypto, neon-server, or futuristic imagery that does not add evidence about the adjacent section.",
+      "Don't create a competing visual-system rule in another document; link back to this file and update the canonical rule here."
+    ]
+  }
+}

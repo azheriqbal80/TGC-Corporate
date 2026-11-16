@@ -1,0 +1,372 @@
+/* Company — regional origin expressed as a measured corporate field. */
+.company-page {
+  background: #f2f0e9;
+  color: #0b0d0b;
+}
+
+.company-page em {
+  font-style: normal;
+  color: #a4ec22;
+}
+
+.company-section-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.company-mission {
+  padding: 150px 3vw 170px;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  gap: 24px;
+}
+
+.company-mission > div {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 6vw;
+}
+
+.company-mission h2 {
+  grid-column: 1/-1;
+  max-width: 1100px;
+  margin: 0 0 80px;
+  font-family: "Archivo";
+  font-size: clamp(3.3rem, 6.8vw, 7.5rem);
+  font-weight: 400;
+  line-height: 0.97;
+  letter-spacing: -0.055em;
+}
+
+.company-mission p {
+  margin: 0;
+  font-size: clamp(15px, 1.15vw, 18px);
+  line-height: 1.65;
+  color: #50554d;
+}
+
+.company-mission p + p {
+  max-width: 42ch;
+}
+
+.company-story {
+  min-height: 900px;
+  padding: 130px 3vw;
+  background: #a4ec22;
+  display: grid;
+  grid-template-columns: 2fr 7fr 3fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.company-story-axis {
+  height: 640px;
+  position: relative;
+  border-left: 1px solid rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 18px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.company-story-axis > i {
+  position: absolute;
+  left: -2px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #0b0d0b;
+}
+
+.company-story-axis b {
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #0b0d0b;
+}
+
+.company-story-copy h2 {
+  max-width: 800px;
+  margin: 32px 0 55px;
+  font-family: "Archivo";
+  font-size: clamp(3.5rem, 6vw, 7rem);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+}
+
+.company-story-copy p {
+  max-width: 65ch;
+  font-size: clamp(16px, 1.25vw, 19px);
+  line-height: 1.65;
+}
+
+.company-story-note {
+  align-self: end;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.company-story-note span {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.company-story-note p {
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.company-principles {
+  padding: 150px 3vw;
+  background: #f2f0e9;
+}
+
+.company-principles-title {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  gap: 24px;
+}
+
+.company-principles-title h2 {
+  max-width: 1000px;
+  margin: 0 0 100px;
+  font-family: "Archivo";
+  font-size: clamp(3.4rem, 6vw, 7rem);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.company-principles-list {
+  margin-left: 16.66%;
+  border-top: 1px solid #858a80;
+}
+
+.company-principles-list article {
+  position: relative;
+  min-height: 190px;
+  padding: 28px 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr 5fr 1fr;
+  gap: 24px;
+  align-items: start;
+  border-bottom: 1px solid #858a80;
+}
+
+.company-principles-list article > span {
+  font-size: 11px;
+}
+
+.company-principles-list h3 {
+  margin: 0;
+  font-family: "Archivo";
+  font-size: clamp(1.7rem, 2.4vw, 2.8rem);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.company-principles-list p {
+  max-width: 46ch;
+  margin: 4px 0 0;
+  color: #555a52;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.company-principles-list i {
+  justify-self: end;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #0b0d0b;
+  border-radius: 50%;
+  position: relative;
+}
+
+.company-principles-list i:after {
+  content: "";
+  position: absolute;
+  inset: 11px;
+  background: #a4ec22;
+  border-radius: 50%;
+}
+
+.company-leadership {
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: clamp(120px, 15vh, 170px) 3vw clamp(80px, 10vh, 120px);
+  background: #111411;
+  color: #f7f7f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company-leadership-heading {
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.company-leadership-heading h2 {
+  margin: 0;
+}
+
+.company-leadership-roles {
+  margin-top: clamp(48px, 8vh, 88px);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(48px, 8vw, 128px);
+}
+
+.company-leadership-role {
+  min-width: 0;
+}
+
+.company-leadership-role > span {
+  color: #aeb6a6;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.company-leadership-role h3 {
+  max-width: 12ch;
+  margin: 26px 0 32px;
+  font-family: "Archivo";
+  font-size: clamp(3.5rem, 5.6vw, 6.4rem);
+  font-weight: 400;
+  line-height: 0.92;
+  letter-spacing: -0.05em;
+}
+
+.company-leadership-role p {
+  max-width: 52ch;
+  margin: 0;
+  color: #b6bab1;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.company-leadership-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 44px;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a4ec22;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+@media (max-width: 900px) {
+  .company-mission {
+    padding: 100px 20px;
+    grid-template-columns: 1fr;
+  }
+  .company-mission > div {
+    grid-template-columns: 1fr;
+  }
+  .company-mission h2 {
+    margin: 30px 0 45px;
+  }
+  .company-mission p + p {
+    margin-top: 24px;
+  }
+  .company-story {
+    min-height: auto;
+    padding: 100px 20px;
+    grid-template-columns: 1fr;
+  }
+  .company-story-axis {
+    height: 120px;
+    flex-direction: row;
+    border-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.35);
+    padding: 18px 0 0;
+  }
+  .company-story-axis > i {
+    left: 0;
+    top: -2px;
+    width: 100%;
+    height: 3px;
+    transform-origin: left !important;
+  }
+  .company-story-axis b {
+    left: 50%;
+    top: -8px;
+  }
+  .company-story-copy h2 {
+    margin: 25px 0 35px;
+  }
+  .company-story-note {
+    margin-top: 35px;
+  }
+  .company-principles {
+    padding: 100px 20px;
+  }
+  .company-principles-title {
+    grid-template-columns: 1fr;
+  }
+  .company-principles-title h2 {
+    margin: 30px 0 60px;
+  }
+  .company-principles-list {
+    margin-left: 0;
+  }
+  .company-principles-list article {
+    grid-template-columns: 40px 1fr;
+    min-height: 220px;
+  }
+  .company-principles-list h3,
+  .company-principles-list p {
+    grid-column: 2;
+  }
+  .company-principles-list i {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .company-leadership {
+    padding: 100px 20px 90px;
+  }
+  .company-leadership-roles {
+    grid-template-columns: 1fr;
+    gap: 52px;
+    margin-top: 48px;
+  }
+  .company-leadership-role h3 {
+    max-width: 14ch;
+    margin: 22px 0 24px;
+  }
+}
+
+@media (max-width: 520px) {
+  .company-leadership-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .company-mission h2,
+  .company-story-copy h2,
+  .company-principles-title h2 {
+    font-size: 11vw;
+  }
+  .company-leadership-role h3 {
+    font-size: 11.5vw;
+  }
+}

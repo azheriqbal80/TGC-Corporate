@@ -1,0 +1,92 @@
+.closing-section {
+  position: relative;
+  min-height: 100svh;
+  padding: 40px 3vw 28px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.closing-section-meta {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.closing-section h2 {
+  position: relative;
+  z-index: 1;
+  margin: auto 0 36px;
+  max-width: 100%;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(2.35rem, 6.3vw, 6.25rem);
+  font-weight: 400;
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+  text-wrap: pretty;
+}
+
+.closing-section > p {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 40px;
+  max-width: 54ch;
+  line-height: 1.65;
+}
+
+.closing-section--dark {
+  background: var(--ink);
+  /* Set explicitly: on a light-surfaced page the heading would otherwise
+     inherit the page's ink text colour and disappear into this background. */
+  color: var(--paper);
+}
+
+.closing-section--dark .closing-section-meta {
+  border-bottom: 1px solid var(--line);
+  color: #9ca394;
+}
+
+.closing-section--dark > p {
+  color: #aeb6a6;
+}
+
+.closing-section--signal {
+  background: var(--green);
+  color: var(--ink);
+}
+
+.closing-section--signal .closing-section-meta {
+  border-bottom: 1px solid rgba(10, 11, 9, 0.35);
+  color: rgba(10, 11, 9, 0.68);
+}
+
+.closing-section--signal .contact-action {
+  color: var(--ink);
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 900px) {
+  .closing-section {
+    padding: 30px 20px 25px;
+  }
+
+  .closing-section h2 {
+    margin-bottom: 28px;
+    font-size: clamp(2.35rem, 7.2vw, 4.5rem);
+  }
+
+  .closing-section > p {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 520px) {
+  .closing-section h2 {
+    font-size: clamp(2.15rem, 9vw, 3rem);
+  }
+}

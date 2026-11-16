@@ -1,0 +1,197 @@
+/* The opening hero shared by every interior route. Geometry never varies. */
+.page-hero {
+  position: relative;
+  min-height: 100svh;
+  padding: clamp(116px, 12.5vh, 146px) 3vw 34px;
+  overflow: hidden;
+}
+
+.page-hero-title {
+  position: relative;
+  z-index: 4;
+}
+
+.page-hero h1 {
+  margin: 0;
+  max-width: 1220px;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-weight: 400;
+  line-height: 0.91;
+  letter-spacing: -0.04em;
+}
+
+.page-hero h1 em {
+  color: var(--green);
+  font-style: normal;
+}
+
+.page-hero-copy {
+  position: relative;
+  z-index: 4;
+  width: 35%;
+  max-width: 54ch;
+  margin: 46px 0 0;
+  font-size: 16px;
+  line-height: 1.65;
+  text-wrap: balance;
+}
+
+.page-hero-actions {
+  position: relative;
+  z-index: 4;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.page-hero-media {
+  position: absolute;
+  z-index: 2;
+  right: 3vw;
+  bottom: 72px;
+  width: 57%;
+  height: 52%;
+  overflow: hidden;
+  clip-path: polygon(8% 0, 100% 0, 100% 84%, 92% 100%, 0 100%, 0 16%);
+}
+
+.page-hero-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.page-hero-media figcaption {
+  position: absolute;
+  z-index: 3;
+  left: 18px;
+  bottom: 14px;
+}
+
+.page-hero-foot {
+  position: absolute;
+  z-index: 4;
+  left: 3vw;
+  right: 3vw;
+  bottom: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.page-hero-foot span:nth-child(2) {
+  text-align: center;
+}
+
+.page-hero-foot span:last-child {
+  text-align: right;
+}
+
+/* Dark tone — the only tone in use today. */
+.page-hero--dark {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.page-hero--dark .page-hero-copy {
+  color: #c8cfc0;
+}
+
+.page-hero--dark .page-hero-media {
+  background: #111411;
+}
+
+.page-hero--dark .page-hero-media::after {
+  background: linear-gradient(
+    90deg,
+    rgba(11, 14, 11, 0.78),
+    rgba(11, 14, 11, 0.04) 55%
+  );
+}
+
+.page-hero--dark .page-hero-media figcaption {
+  color: #aeb6a6;
+}
+
+.page-hero--dark .page-hero-foot {
+  /* 5.11:1 on Operational Ink. The foot strip is 9px, so it is small text and
+     needs 4.5:1; the old #6e756a measured 4.15:1 and failed. */
+  color: #7d8478;
+}
+
+@media (max-width: 900px) {
+  .page-hero {
+    min-height: 1080px;
+    padding: 110px 20px 28px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(3.1rem, 11.5vw, 5.4rem);
+  }
+
+  .page-hero-copy {
+    width: 100%;
+    max-width: 42ch;
+    margin-top: 38px;
+  }
+
+  .page-hero-actions {
+    flex-wrap: wrap;
+    max-width: 520px;
+  }
+
+  .page-hero-media {
+    right: 20px;
+    bottom: 68px;
+    width: calc(100% - 40px);
+    height: 370px;
+  }
+
+  .page-hero-foot {
+    left: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+  .page-hero {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 520px) {
+  .page-hero {
+    min-height: 1040px;
+  }
+
+  .page-hero h1 {
+    font-size: 12vw;
+  }
+
+  .page-hero-copy {
+    font-size: 14px;
+  }
+
+  .page-hero-actions {
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-hero-media {
+    height: 330px;
+  }
+}

@@ -1,0 +1,494 @@
+/* Achievements — verified corporate recognition and public demonstrations. */
+.achievements-page {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.achievements-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 95;
+  height: 3px;
+  background: rgba(10, 11, 9, 0.88);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  pointer-events: none;
+}
+
+.achievements-progress-fill {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--green);
+  transform: scaleX(0);
+  transform-origin: left center;
+  will-change: transform;
+}
+
+.achievements-section-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* 01 · UAE Future 100 (Editorial Paper field) */
+.achievements-future100 {
+  padding: 136px 3vw 150px;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.achievements-section-meta {
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid rgba(10, 11, 9, 0.25);
+}
+
+.achievements-verify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 44px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--ink);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: opacity 0.22s ease;
+}
+
+.achievements-verify-link:hover {
+  opacity: 0.65;
+}
+
+.achievements-future100-grid {
+  margin-top: clamp(56px, 8vh, 88px);
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: clamp(40px, 6vw, 96px);
+  align-items: start;
+}
+
+.achievements-future100-body h2 {
+  max-width: 14ch;
+  margin: 0 0 42px;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(3.1rem, 6vw, 6rem);
+  font-weight: 400;
+  line-height: 0.96;
+  letter-spacing: -0.045em;
+}
+
+.achievements-prose {
+  display: grid;
+  gap: 20px;
+  max-width: 56ch;
+}
+
+.achievements-prose p {
+  margin: 0;
+  font-size: clamp(15px, 1.15vw, 18px);
+  line-height: 1.65;
+  color: #464b43;
+}
+
+.achievements-ledger {
+  margin: 54px 0 0;
+  border-top: 1px solid rgba(10, 11, 9, 0.3);
+}
+
+.achievements-ledger-row {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: minmax(140px, 32%) 1fr;
+  gap: 24px;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(10, 11, 9, 0.3);
+}
+
+.achievements-ledger-row dt {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #464b43;
+}
+
+.achievements-ledger-row dd {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.achievements-trophy-frame {
+  margin: 0;
+  border: 1px solid rgba(10, 11, 9, 0.22);
+  background: #e3e6dc;
+}
+
+.achievements-trophy-frame .lazy-picture {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 760 / 1288;
+  background: #141714;
+}
+
+.achievements-trophy-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.achievements-trophy-frame figcaption {
+  padding: 14px 18px;
+  border-top: 1px solid rgba(10, 11, 9, 0.18);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #464b43;
+}
+
+/* Institutional accreditation bar on Operational Ink so white programme marks remain high-contrast */
+.achievements-endorsement {
+  margin-top: clamp(64px, 9vh, 104px);
+  padding: clamp(28px, 4vw, 44px);
+  background: var(--ink);
+  color: var(--paper);
+  border: 1px solid rgba(10, 11, 9, 0.3);
+}
+
+.achievements-endorsement-header {
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.achievements-endorsement-header span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #aeb6a6;
+}
+
+.achievements-endorsement-logos {
+  margin-top: 28px;
+}
+
+.achievements-endorsement-strip {
+  min-width: 0;
+}
+
+.achievements-endorsement-strip .lazy-picture {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  aspect-ratio: 1002 / 154;
+}
+
+.achievements-endorsement-strip img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* 02 · MENA Games Industry Awards (Operational Ink dark field) */
+.achievements-award {
+  box-sizing: border-box;
+  min-height: 100svh;
+  padding: clamp(120px, 14vh, 164px) 3vw clamp(100px, 12vh, 144px);
+  background: var(--ink);
+  color: var(--paper);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.achievements-award-head {
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.achievements-award-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 44px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--green);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--paper);
+  transition: color 0.22s ease;
+}
+
+.achievements-award-link:hover {
+  color: var(--green);
+}
+
+.achievements-award-grid {
+  margin-top: clamp(56px, 8vh, 88px);
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: clamp(40px, 6vw, 96px);
+  align-items: start;
+}
+
+.achievements-award-frame {
+  margin: 0;
+  border: 1px solid var(--line);
+  background: #111411;
+}
+
+.achievements-award-frame .lazy-picture {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 926 / 1152;
+  background: #0a0b09;
+}
+
+.achievements-award-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.achievements-award-frame figcaption {
+  padding: 14px 18px;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aeb6a6;
+}
+
+.achievements-award-kicker {
+  display: block;
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.achievements-award-body h2 {
+  max-width: 15ch;
+  margin: 22px 0 32px;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(3rem, 5.4vw, 5.5rem);
+  font-weight: 400;
+  line-height: 0.96;
+  letter-spacing: -0.045em;
+  color: #fff;
+}
+
+.achievements-award-summary {
+  max-width: 54ch;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #c8cfc0;
+}
+
+.achievements-ledger--dark {
+  border-top: 1px solid var(--line);
+}
+
+.achievements-ledger--dark .achievements-ledger-row {
+  border-bottom: 1px solid var(--line);
+}
+
+.achievements-ledger--dark .achievements-ledger-row dt {
+  color: #aeb6a6;
+}
+
+.achievements-ledger--dark .achievements-ledger-row dd {
+  color: var(--paper);
+}
+
+/* 03 · Public Demonstrations (Signal Green evidence field) */
+.achievements-demos {
+  padding: 140px 3vw 150px;
+  background: var(--green);
+  color: var(--ink);
+}
+
+.achievements-demos-intro {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.achievements-demos-region {
+  margin: 18px 0 0;
+  max-width: 24ch;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(10, 11, 9, 0.78);
+}
+
+.achievements-demos-intro h2 {
+  max-width: 15ch;
+  margin: 0 0 28px;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(3.2rem, 6vw, 6.4rem);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.achievements-demos-lead {
+  max-width: 56ch;
+  margin: 0 0 88px;
+  font-size: clamp(16px, 1.25vw, 19px);
+  line-height: 1.6;
+  color: rgba(10, 11, 9, 0.85);
+}
+
+.achievements-demos-list {
+  margin-left: 16.66%;
+  border-top: 1px solid rgba(10, 11, 9, 0.42);
+}
+
+.achievements-demos-list article {
+  position: relative;
+  min-height: 190px;
+  padding: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr 5fr 1fr;
+  gap: 24px;
+  align-items: start;
+  border-bottom: 1px solid rgba(10, 11, 9, 0.42);
+}
+
+.achievements-demo-index {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.achievements-demo-venue {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(10, 11, 9, 0.72);
+}
+
+.achievements-demo-heading h3 {
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(1.65rem, 2.3vw, 2.6rem);
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+
+.achievements-demos-list p {
+  max-width: 48ch;
+  margin: 6px 0 0;
+  font-size: 15px;
+  line-height: 1.65;
+  color: rgba(10, 11, 9, 0.86);
+}
+
+.achievements-demos-list i {
+  justify-self: end;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  position: relative;
+}
+
+.achievements-demos-list i::after {
+  content: "";
+  position: absolute;
+  inset: 11px;
+  background: var(--ink);
+  border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+  .achievements-future100 {
+    padding: 96px 20px 104px;
+  }
+
+  .achievements-future100-grid,
+  .achievements-award-grid,
+  .achievements-demos-intro {
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .achievements-award {
+    min-height: auto;
+    padding: 96px 20px 104px;
+  }
+
+  .achievements-demos {
+    padding: 96px 20px 104px;
+  }
+
+  .achievements-demos-lead {
+    margin-bottom: 52px;
+  }
+
+  .achievements-demos-list {
+    margin-left: 0;
+  }
+
+  .achievements-demos-list article {
+    grid-template-columns: 40px 1fr;
+    min-height: 0;
+    padding: 28px 0;
+  }
+
+  .achievements-demo-heading,
+  .achievements-demos-list p {
+    grid-column: 2;
+  }
+
+  .achievements-demos-list i {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 520px) {
+  .achievements-section-meta,
+  .achievements-award-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .achievements-future100-body h2,
+  .achievements-award-body h2,
+  .achievements-demos-intro h2 {
+    font-size: 11vw;
+  }
+
+  .achievements-ledger-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://localhost:4173/</loc></url>
+  <url><loc>http://localhost:4173/platform</loc></url>
+  <url><loc>http://localhost:4173/technology</loc></url>
+  <url><loc>http://localhost:4173/company</loc></url>
+  <url><loc>http://localhost:4173/leadership</loc></url>
+  <url><loc>http://localhost:4173/achievements</loc></url>
+  <url><loc>http://localhost:4173/contact</loc></url>
+</urlset>

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@import "./styles/base.css";
+@import "./components/actions/actions.css";
+@import "./components/ui/shader-metal.css";
+@import "./components/ui/lazy-picture.css";
+@import "./pages/home/home.css";
+@import "./components/figures/figures.css";
+@import "./pages/platform/platform.css";
+@import "./pages/technology/technology.css";
+@import "./pages/company/company.css";
+@import "./pages/leadership/leadership.css";
+@import "./pages/achievements/achievements.css";
+@import "./pages/contact/contact.css";
+@import "./components/faq/TechnicalFaq.css";
+@import "./styles/shared.css";
+@import "./components/layout/SiteHeader.css";
+@import "./components/layout/PageHero.css";
+@import "./components/layout/ClosingSection.css";
+@import "./components/layout/SiteFooter.css";
+@import "./pages/not-found/not-found.css";
+@import "./pages/design-guide/design-guide.css";

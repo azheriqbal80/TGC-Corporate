@@ -1,0 +1,32 @@
+.not-found-page {
+  min-height: 100svh;
+  background: #0a0b09;
+  color: #f7f7f2;
+}
+
+.not-found-page main {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 120px 20px 40px;
+}
+
+.not-found-page main > section {
+  width: min(760px, 100%);
+}
+
+.not-found-page h1 {
+  margin: 0;
+  font:
+    400 clamp(4rem, 10vw, 9rem)/0.9 "Archivo",
+    sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.not-found-page p {
+  max-width: 48ch;
+  margin: 34px 0;
+  color: #c8cbc2;
+  font-size: 17px;
+  line-height: 1.65;
+}
