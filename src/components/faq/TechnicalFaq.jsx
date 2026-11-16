@@ -75,11 +75,7 @@ export function TechnicalFaq({
       : `${String(visibleItems.length).padStart(2, "0")} of ${String(items.length).padStart(2, "0")} entries`;
 
   return (
-    <section
-      className="tech-faq"
-      id={id}
-      aria-labelledby={`${baseId}-heading`}
-    >
+    <section className="tech-faq" id={id} aria-labelledby={`${baseId}-heading`}>
       <div className="tech-faq-meta">
         <span>{eyebrow}</span>
         <span>{metaRight}</span>

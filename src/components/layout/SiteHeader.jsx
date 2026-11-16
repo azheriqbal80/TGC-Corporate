@@ -66,10 +66,7 @@ export function SiteHeader({ active = "", lazyLogo = false }) {
       }
     };
   }, [menuOpen]);
-  const headerClassName = [
-    "site-header",
-    menuOpen && "site-header--open",
-  ]
+  const headerClassName = ["site-header", menuOpen && "site-header--open"]
     .filter(Boolean)
     .join(" ");
   return (

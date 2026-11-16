@@ -13,7 +13,8 @@ export const future100Data = {
   verifyLabel: "Verify at future100.ae",
   verifyUrl: "https://future100.ae/en/future-100-list",
   trophyCaption: "Future 100 UAE trophy · National Entrepreneurship Ecosystem",
-  institutionsLabel: "Official national accreditation · Future 100 UAE 2025–2026",
+  institutionsLabel:
+    "Official national accreditation · Future 100 UAE 2025–2026",
 };
 
 export const menaAwardData = {

@@ -145,7 +145,10 @@ export function AchievementsPage() {
           </div>
 
           <div className="achievements-future100-grid">
-            <div className="achievements-future100-body" data-achievements-reveal>
+            <div
+              className="achievements-future100-body"
+              data-achievements-reveal
+            >
               <h2 id="future-100-heading">{future100Data.heading}</h2>
               <div className="achievements-prose">
                 {future100Data.paragraphs.map((text) => (

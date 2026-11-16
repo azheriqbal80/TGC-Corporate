@@ -23,6 +23,7 @@ Heading: **UAE Future 100, 2025–2026 cycle.**
 > The programme is run by the Ministry of Economy and Tourism together with the Minister of State for Government Development and the Future, through riyada, the National Entrepreneurship Ecosystem.
 
 Metadata:
+
 - Selection: `UAE national listing, 2025 to 2026 cycle`
 - Convened by: `Ministry of Economy & Tourism, with riyada ecosystem`
 - Sector: `Cloud gaming infrastructure and digital assets`
@@ -36,6 +37,7 @@ Heading: **Best Web3 Gaming at the MENA Games Industry Awards.**
 > Recognised across the Middle East and North Africa games ecosystem as Best Web3 Gaming, in an industry award category sponsored by BlockchainGamer.biz.
 
 Metadata:
+
 - Recognition: `First place winner — Best Web3 Gaming`
 - Programme: `MENA Games Industry Awards, 2025 cycle`
 - Category sponsor: `BlockchainGamer.biz`
@@ -64,6 +66,7 @@ Primary action: **Contact TGC**
 ## Visual assets
 
 Extracted directly from `docs/tgc-deck-orignal.pdf`:
+
 - `public/images/achievements-hero.{png,webp,avif}` — Dark geometric network mesh (PDF p. 25 background)
 - `public/images/achievements/future-100-trophy.{png,webp,avif}` — Future 100 UAE trophy photograph (PDF p. 25)
 - `public/images/achievements/future-100-logo.{png,webp,avif}` — Future 100 UAE 2025–2026 mark (PDF p. 25)

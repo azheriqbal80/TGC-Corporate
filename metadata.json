@@ -2,7 +2,5 @@
   "name": "Remix TGC Corporate",
   "description": "The Game Company is developing AI-powered, cloud-agnostic infrastructure designed to bring high-performance gaming to more devices and networks.",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

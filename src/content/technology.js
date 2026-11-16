@@ -71,4 +71,3 @@ export const technologyFaqs = [
       "Performance metrics are only meaningful alongside the conditions under which they were captured. TGC pairs performance reviews with device specification, network conditions, resolution, frame rate, latency, test location, date, and methodology.",
   },
 ];
-

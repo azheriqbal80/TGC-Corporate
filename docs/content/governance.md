@@ -91,11 +91,11 @@ Until those items are supplied, keep the current restrained wording and configur
 
 ## Page ownership
 
-| Page       | Owns                                                                             |
-| ---------- | -------------------------------------------------------------------------------- |
-| Home       | Proposition, verified recognition, concise previews, and contact path            |
-| Platform   | Player, publisher, studio, and infrastructure-partner value                      |
-| Technology | Architecture, engineering concepts, network conditions, and evidence methodology |
+| Page         | Owns                                                                             |
+| ------------ | -------------------------------------------------------------------------------- |
+| Home         | Proposition, verified recognition, concise previews, and contact path            |
+| Platform     | Player, publisher, studio, and infrastructure-partner value                      |
+| Technology   | Architecture, engineering concepts, network conditions, and evidence methodology |
 | Company      | Purpose, operating context, location, principles, and organisational model       |
 | Achievements | Verified recognition, awards, national listings, and public live demonstrations  |
 | Leadership   | Core Team and Advisory Team identities and approved biographies                  |
