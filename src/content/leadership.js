@@ -7,13 +7,13 @@ export const coreTeam = [
   ],
   [
     "Saqr Ereiqat",
-    "Chief Commercial Officer",
+    "Chief Strategy Officer",
     "Saqr works across blockchain, fintech, government technology, and enterprise transformation. His experience includes TradeDog Group, Crypto Oasis Ventures, Riddermark, and 13 years at IBM. At TGC, he focuses on commercial strategy, partnerships, and regional ecosystems.",
     "saqr-ereiqat",
   ],
   [
     "Sebastian Melz",
-    "Chief Operating Officer",
+    "Chief Partnership and Investment Officer",
     "Sebastian has 15 years of experience advising on technology and building startups. His work has supported organisations across music, aviation, public-sector, financial technology, software, and artificial intelligence. He is a co-founder of 030 Group and founder of 030labs.io.",
     "sebastian-melz",
   ],
